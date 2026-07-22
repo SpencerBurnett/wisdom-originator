@@ -7,7 +7,7 @@ export default function Themes() {
       <SectionHeader
         kicker="Themes"
         title="What keeps coming back — and what it becomes"
-        sub="Recurring threads across the six hours, each with the specific take only Spencer has, and the concrete content properties it develops into: series, keynotes, lead magnets, post runs."
+        sub="Recurring threads across both sessions — the 6.21 marathon and the July cards session (badged S2) — each with the specific take only Spencer has, and the concrete content properties it develops into: series, keynotes, lead magnets, post runs."
       />
       <div className="space-y-6">
         {themes.map((t, i) => (
@@ -16,6 +16,7 @@ export default function Themes() {
               <div className="flex flex-wrap items-center gap-2 mb-3">
                 <h3 className="font-display text-2xl text-amber">{t.theme}</h3>
                 <div className="ml-auto flex flex-wrap gap-1.5">
+                  {t.session === 2 && <Tag tone="amber">S2</Tag>}
                   {t.platforms.map((p) => <Tag key={p}>{p}</Tag>)}
                 </div>
               </div>

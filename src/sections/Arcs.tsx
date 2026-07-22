@@ -1,4 +1,4 @@
-import { SectionHeader, Card, Fade, Timestamp } from '../components/ui'
+import { SectionHeader, Card, Fade, Tag, Timestamp } from '../components/ui'
 import { arcs } from '../data/content'
 
 export default function Arcs() {
@@ -6,14 +6,17 @@ export default function Arcs() {
     <div>
       <SectionHeader
         kicker="Narrative Arcs"
-        title="Storylines that span the whole night"
-        sub="Multi-beat arcs an editor can cut into documentary and episodic treatments — including the meta-arc of the shoot itself, which ends by telling the story of how it began."
+        title="Storylines that span whole nights"
+        sub="Multi-beat arcs an editor can cut into documentary and episodic treatments — the 6.21 arcs including the meta-arc that ends by telling its own origin, and the Session 2 arcs (badged S2): the on-camera breakup, the cards format, the God tape, and the operator in the storm's eye."
       />
       <div className="space-y-8">
         {arcs.map((a, i) => (
           <Fade key={a.arc} delay={Math.min(i * 0.04, 0.2)}>
             <Card>
-              <h3 className="font-display text-2xl text-amber mb-2">{a.arc}</h3>
+              <div className="flex flex-wrap items-center gap-3 mb-2">
+                <h3 className="font-display text-2xl text-amber">{a.arc}</h3>
+                {a.session === 2 && <Tag tone="amber">S2</Tag>}
+              </div>
               <p className="text-faded text-sm leading-relaxed mb-5">{a.description}</p>
               <div className="border-l border-edge ml-1.5 pl-5 space-y-4 mb-5">
                 {a.beats.map((b, j) => (

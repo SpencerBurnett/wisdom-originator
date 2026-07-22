@@ -97,3 +97,108 @@ export const frames: FrameStill[] = [
 
 export const posterNote =
   'The poster frame Frame.io chose on its own: eyes closed, hand to temple, wine glass, wall of notes. The platform picked the download pose — the brand image validates itself.'
+
+// Session 2 stills, pulled from the CR5E0001 master ("Pt. 2", 2h36m,
+// uploaded 7.22.26) at the beats that carry the night — denser around the
+// break and the reading, where the story turns.
+export const frames2: FrameStill[] = [
+  {
+    file: '/frames2/t00060.jpg',
+    timestamp: '0:01:00',
+    label: 'The Cards Come Out',
+    note: 'Aviators on from minute one — last session\'s 4.5-hour persona is now the default state. White crochet shawl, card deck in hand, the S1 crayon strips still lining the monitors. The set remembers.',
+  },
+  {
+    file: '/frames2/t00649.jpg',
+    timestamp: '0:10:49',
+    label: 'The Command Center Sermon',
+    note: 'Mid-flow on the Oracle pitch inside the God segment — every transcript ingested, every commitment extracted, one question answered: what do I focus on today?',
+  },
+  {
+    file: '/frames2/t00845.jpg',
+    timestamp: '0:14:05',
+    label: 'The Completion Stillness',
+    note: 'Hands folded, dead center, the calmest posture of the night — landing exactly on the moment-of-completion doctrine. One frame in a hundred where the thing is done: this is what it looks like.',
+  },
+  {
+    file: '/frames2/t01434.jpg',
+    timestamp: '0:23:54',
+    label: 'The Wall Between Real and True',
+    note: 'Both palms pushed flat at the lens while the gaslighting teaching lands — the reality/truth wall, built in the air. REAL ≠ TRUE thumbnail base.',
+  },
+  {
+    file: '/frames2/t01631.jpg',
+    timestamp: '0:27:11',
+    label: 'Probably Going to Be Me',
+    note: 'Index finger straight down the lens, grinning — someone\'s going to eat your lunch. The AI-curiosity warning shot, cover frame ready.',
+  },
+  {
+    file: '/frames2/t02613.jpg',
+    timestamp: '0:43:33',
+    label: 'The First Reading',
+    note: 'Phone up, face flat, one thumb scrolling — her texts read verbatim for the first time. The device becomes the night\'s recurring prop.',
+  },
+  {
+    file: '/frames2/t03202.jpg',
+    timestamp: '0:53:22',
+    label: 'I Just Lose Interest',
+    note: 'Finger-gun to the lens on the coldest line of the night, delivered warm. The ascension-of-reactivity teaching in one gesture.',
+  },
+  {
+    file: '/frames2/t04381.jpg',
+    timestamp: '1:12:58',
+    label: 'The Download Pose Returns',
+    note: 'Fingers to both temples mid-shame-teaching — the S1 brand pose resurfacing unprompted, one month later, mid-doctrine. Cross-session continuity, on tape.',
+  },
+  {
+    file: '/frames2/t04577.jpg',
+    timestamp: '1:16:17',
+    label: 'Is This Okay?',
+    note: 'Head bowed, hand flat on the chest — "a reason for wanting out is because I feel like—" and the sentence never finishes. The act break. No text card needed.',
+  },
+  {
+    file: '/frames2/t04774.jpg',
+    timestamp: '1:19:34',
+    label: 'Job Finished.',
+    note: 'The verbatim reading: phone held high, spine straight, zero affect — the breakup entered into the record like a court clerk. Clearance-gated; if cleared, the episode freezes here.',
+  },
+  {
+    file: '/frames2/t05756.jpg',
+    timestamp: '1:35:56',
+    label: 'So Many Nickels',
+    note: 'Arms flung fully open on the abundance sermon — the widest gesture of the night on "I got you." Pairs with S1\'s preacher frame: same wingspan, one month apart.',
+  },
+  {
+    file: '/frames2/t05952.jpg',
+    timestamp: '1:39:12',
+    label: 'True Scalability',
+    note: 'The clearest Oracle pitch on tape, delivered minutes after reading breakup texts — the storm\'s-eye composure that becomes its own arc.',
+  },
+  {
+    file: '/frames2/t06542.jpg',
+    timestamp: '1:49:02',
+    label: 'You Love the Drama',
+    note: 'Both hands clawed at the lens mid-rant — six Spider-Mans, zero drama-free movies. The comedy engine of the session at full rev.',
+  },
+  {
+    file: '/frames2/t07720.jpg',
+    timestamp: '2:08:36',
+    label: 'The Prayer Posture',
+    note: 'Wrists crossed flat over the chest, eyes soft — the meal-prayer triangle described from inside it. The God Tape\'s poster frame.',
+  },
+  {
+    file: '/frames2/t08899.jpg',
+    timestamp: '2:28:13',
+    label: 'The Armor Era',
+    note: 'Arms crossed — the resting posture of the final half hour. Open palms in hour one, phone in hour two, folded arms by 2:30. The physical arc is the narrative arc.',
+  },
+  {
+    file: '/frames2/t09292.jpg',
+    timestamp: '2:34:46',
+    label: 'Sticking to My Guns',
+    note: 'Final frame: arms crossed, eyes closed, chin level — resolved. "The sharpest 90-degree pivot I\'ve ever had, in a good way." Wrap.',
+  },
+]
+
+export const session2Note =
+  'Session 2 wears its continuity on purpose: same desk, same lighting plot, same shawl — and the aviators on from frame one, so the two masters chain as one film. The new physical storyline is posture: the night opens with open palms and closes with crossed arms, and every act break is visible with the sound off.'

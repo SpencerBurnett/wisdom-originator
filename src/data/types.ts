@@ -1,3 +1,6 @@
+// session marks which shoot master an item's timestamps reference:
+// 1 (default) = the 6.21.26 six-hour session, 2 = the July 2026 "Pt. 2"
+// session (CR5E0001, 2h36m, uploaded 7.22.26).
 export interface Clip {
   id: string
   title: string
@@ -9,6 +12,7 @@ export interface Clip {
   platforms: string[]
   strength: number
   edit_notes?: string
+  session?: number
 }
 
 export interface Short {
@@ -23,6 +27,7 @@ export interface PillarVideo {
   source_clips: string[]
   runtime_estimate: string
   thumbnail_concept?: string
+  session?: number
 }
 
 export interface Quote {
@@ -31,6 +36,7 @@ export interface Quote {
   category: string
   strength: number
   use: string
+  session?: number
 }
 
 export interface Theme {
@@ -39,6 +45,7 @@ export interface Theme {
   timestamps: string[]
   develop_into: string[]
   platforms: string[]
+  session?: number
 }
 
 export interface ArcBeat {
@@ -52,12 +59,14 @@ export interface Arc {
   beats: ArcBeat[]
   treatment: string
   title_ideas: string[]
+  session?: number
 }
 
 export interface PhysicalMoment {
   timestamp: string
   description: string
   content_idea?: string
+  session?: number
 }
 
 export interface FrameStill {

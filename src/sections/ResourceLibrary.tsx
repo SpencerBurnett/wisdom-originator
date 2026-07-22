@@ -61,7 +61,7 @@ export default function ResourceLibrary() {
       <SectionHeader
         kicker="Resource Library · The Wiki"
         title="Every file that built this."
-        sub="One night of footage became a four-month content machine. This is the database of every source, dataset, image and page underneath it — where each came from, and where it lands. Filter, search, and click through to any resource or the part of the site it powers."
+        sub="Two sessions of footage became a four-month content machine. This is the database of every source, dataset, image and page underneath it — where each came from, and where it lands. Filter, search, and click through to any resource or the part of the site it powers."
       />
 
       {/* stat band */}

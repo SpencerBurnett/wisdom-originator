@@ -646,6 +646,34 @@ export const calendarAdditions: CalAddition[] = [
   {
     "week_or_month": "October",
     "addition": "Called-shot scoring post: reconcile the July $210K prediction against actual collected revenue, receipts attached"
+  },
+  {
+    "week_or_month": "Week 3 (Jul 20–26)",
+    "addition": "SESSION 2 LANDED (Pt. 2, 2h36m, uploaded 7.22) — mined into the Command Center same-day: 46 clips, 14 shorts, 3 pillars, 9 themes, 4 arcs. The biweekly-shoot promise kept itself on schedule"
+  },
+  {
+    "week_or_month": "Week 4 (Jul 27–Aug 2)",
+    "addition": "S2 first cuts enter the stack: 'Prayer Is Prompting God' (C114) ships untrimmed as the announcement short; the Meow Meow cold open (C81) cuts for IG; Chris photographs the S2 question cards for the Cards-series cover frames"
+  },
+  {
+    "week_or_month": "August",
+    "addition": "S2 operator wave on LinkedIn: the completion-frame post, one-screen-per-person, the million-me's résumé post, and the heart-happy client-philosophy post rotate into the Monday/Thursday story slots (drafts live in the ready-post bank)"
+  },
+  {
+    "week_or_month": "August",
+    "addition": "'Reality vs. Truth — The Precise Language Masterclass' (S2 pillar) becomes August's second long-form; the REAL ≠ TRUE carousel ships the same week"
+  },
+  {
+    "week_or_month": "September",
+    "addition": "The Cards series at full cadence (2/week from the S2 deck) + 'The Heart Chapter' pillar and 'The God Tape' fill DEPTH month's human lane — S2 supplies September end to end"
+  },
+  {
+    "week_or_month": "September",
+    "addition": "CLEARANCE DECISION: 'Job Finished.' (the S2 breakup documentary) — Spencer's sign-off decides whether the vlog's Season 2 trough episode exists; no edit time past selects until the gate clears"
+  },
+  {
+    "week_or_month": "October",
+    "addition": "'What Did Your Mother Teach You?' paired tentpole (the question + dad's answer) runs in HARVEST month — YouTube/vlog only per the on-tape platform flag"
   }
 ]
 
@@ -664,5 +692,9 @@ export const clearanceList: string[] = [
   "Bellwether Alliance: name, fees, and membership mechanics — anonymize as 'a paid private network' unless consent is obtained",
   "Dating and third-party personal names (Ramsha, the prayer-day story and its religious framing, Valeria's personal chatter) — never publish; the religious material additionally needs respectful-framing review if ever referenced",
   "Profanity-heavy verbatim quotes ('killing all software,' 'no equity for fuck all,' locker-room lines from 6/12) — platform-by-platform decision: full voice on YouTube/vlog, sanitized on LinkedIn; the 6/12 locker-room line is unpublishable anywhere",
-  "Read.ai transcription artifacts: the 6/2 Listings Lab page contains a garbled action item of a private medical nature — never reference it, and scrub/correct the Notion page before sharing any call summaries with clients or team"
+  "Read.ai transcription artifacts: the 6/2 Listings Lab page contains a garbled action item of a private medical nature — never reference it, and scrub/correct the Notion page before sharing any call summaries with clients or team",
+  "SESSION 2 — the girl / the breakup (C105 texts-read-verbatim, C106 receipts of what he built her, C117 aftermath, C120 removal-request material, the electric-blanket/Amazon beats): vlog-tier maximum, she is never named, texts are read-only (never shown on screen), and NOTHING ships without Spencer's explicit sign-off — an active personal situation as of 7.22, same handling as the Ashley rule",
+  "SESSION 2 — the exes catalogue (C96: the stabbing attempt, faked pregnancy, the beating, cops-called-on-herself): anonymized vulnerability framing only, never shock-clipped, vlog/long-form tier — the no-disrespect frame he states on tape IS the edit rule",
+  "SESSION 2 — the spectrum/Asperger's riff about the girl (00:39:05–00:42:40 and the 01:17:31 callback): Spencer flags it on tape ('this one might not be for LinkedIn') — treat as hold-for-review everywhere; the general trap-of-the-wise teaching (C119) cuts clean without it",
+  "SESSION 2 — third parties: the $20K book-offer friend (identifiable by offer details), the bodywork 'big sister,' Austin/Dalton, the therapist details, and the first-marriage material — anonymize or hold; the mothers-question tentpole (C124) runs YouTube/vlog only per the on-tape flag"
 ]

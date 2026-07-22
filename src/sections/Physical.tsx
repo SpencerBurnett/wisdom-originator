@@ -1,5 +1,5 @@
 import { SectionHeader, Card, Fade, Tag, Timestamp } from '../components/ui'
-import { frames, posterNote } from '../data/frames'
+import { frames, frames2, posterNote, session2Note } from '../data/frames'
 import { physicalMoments } from '../data/content'
 import { stickyNoteIndex, albumDeployment } from '../data/supplement'
 
@@ -9,9 +9,10 @@ export default function Physical() {
       <SectionHeader
         kicker="The Physical Layer"
         title="The content is also how you look"
-        sub="Fifteen stills pulled straight off the Frame.io master, one every ~30 minutes. The night reads as a costume drama in five acts: knit → shawl → meal → aviators → notes-to-camera. Every wardrobe and prop shift is an act break an editor can cut to — and every frame below is a thumbnail candidate."
+        sub="Stills pulled straight off both Frame.io masters. Session 1 reads as a costume drama in five acts: knit → shawl → meal → aviators → notes-to-camera. Session 2 wears its continuity on purpose — same set, same shawl, aviators on from frame one — and tells its story in posture instead: open palms → the phone → crossed arms. Every wardrobe, prop, and posture shift is an act break an editor can cut to, and every frame below is a thumbnail candidate."
       />
 
+      <h2 className="font-display text-2xl text-bone mb-4">Session 1 — the costume drama</h2>
       <div className="grid md:grid-cols-2 gap-6 mb-14">
         {frames.map((f, i) => (
           <Fade key={f.file} delay={Math.min(i * 0.03, 0.3)}>
@@ -40,6 +41,28 @@ export default function Physical() {
           </div>
         </Card>
       </Fade>
+
+      <h2 className="font-display text-2xl text-bone mb-2">Session 2 — the posture arc</h2>
+      <p className="text-faded text-sm mb-6 max-w-3xl">{session2Note}</p>
+      <div className="grid md:grid-cols-2 gap-6 mb-14">
+        {frames2.map((f, i) => (
+          <Fade key={f.file} delay={Math.min(i * 0.03, 0.3)}>
+            <Card className="overflow-hidden !p-0">
+              <img src={f.file} alt={f.label} loading="lazy" className="w-full aspect-video object-cover" />
+              <div className="p-5">
+                <div className="flex items-baseline justify-between gap-2 mb-2">
+                  <h3 className="font-display text-lg text-bone">{f.label}</h3>
+                  <span className="flex items-center gap-2 shrink-0">
+                    <Tag tone="amber">S2</Tag>
+                    <Timestamp t={f.timestamp} />
+                  </span>
+                </div>
+                <p className="text-faded text-[13px] leading-relaxed">{f.note}</p>
+              </div>
+            </Card>
+          </Fade>
+        ))}
+      </div>
 
       <h2 className="font-display text-2xl text-bone mb-2">The sticky-note index</h2>
       <p className="text-faded text-sm mb-6 max-w-3xl">
@@ -80,12 +103,15 @@ export default function Physical() {
 
       {physicalMoments.length > 0 && (
         <>
-          <h2 className="font-display text-2xl text-bone mb-6">Physical moments logged from the transcript</h2>
+          <h2 className="font-display text-2xl text-bone mb-6">Physical moments logged from the transcripts</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {physicalMoments.map((m, i) => (
               <Fade key={i} delay={Math.min(i * 0.02, 0.2)}>
                 <Card>
-                  <div className="mb-1.5"><Timestamp t={m.timestamp} /></div>
+                  <div className="mb-1.5 flex items-center gap-2">
+                    <Timestamp t={m.timestamp} />
+                    {m.session === 2 && <Tag tone="amber">S2</Tag>}
+                  </div>
                   <p className="text-bone text-sm leading-relaxed mb-2">{m.description}</p>
                   {m.content_idea && (
                     <p className="text-amber/90 text-[13px] leading-relaxed">

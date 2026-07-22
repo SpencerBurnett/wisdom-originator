@@ -81,9 +81,11 @@ export default function App() {
           })}
         </nav>
         <div className="px-5 py-4 border-t border-edge text-[11px] text-dim leading-relaxed">
-          Shot 6.21.26 &middot; 6h 06m
+          S1 &middot; 6.21.26 &middot; 6h 06m
           <br />
-          One night &rarr; four months of content
+          S2 &middot; 7.26 &middot; 2h 36m
+          <br />
+          Two sessions &rarr; four months of content
         </div>
       </aside>
       <main className="ml-60 px-8 md:px-14 py-12 max-w-6xl">{current.el}</main>

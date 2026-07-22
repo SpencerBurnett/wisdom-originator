@@ -1,9 +1,15 @@
 // Mined from the 6h06m master transcript (6/21/26) by a 22-agent analysis
 // workflow on 2026-07-05. Timestamps reference the Frame.io master.
+// Session 2 ("Pt. 2", CR5E0001, 2h36m, uploaded 7.22.26) is mined in
+// ./session2.ts and merged into each array below — items carry session: 2.
 import type {
   Clip, Short, PillarVideo, Quote, Theme, Arc, PhysicalMoment,
   YouTubeStrategy, LinkedInStrategy, VlogStrategy, WorkflowPlan, CalendarPlan,
 } from './types'
+import {
+  s2Clips, s2Shorts, s2PillarVideos, s2Quotes, s2Themes, s2Arcs,
+  s2PhysicalMoments, s2Ideas,
+} from './session2'
 
 export const clips: Clip[] = [
   {
@@ -1328,7 +1334,8 @@ export const clips: Clip[] = [
     ],
     "strength": 4,
     "edit_notes": "Macro b-roll insert of the two battered notes on the actual laptop. Emotional close of the Sticky Note series (Pillar 5) and the cleanest on-camera demo of 'clarifying the void' — tag for the Precise Language funnel."
-  }
+  },
+  ...s2Clips,
 ]
 
 export const shorts: Short[] = [
@@ -1456,7 +1463,8 @@ export const shorts: Short[] = [
     "title": "The Sun Doesn't Apologize",
     "source_clip": "C79",
     "hook": "'Are you hiding something?' — 'Yes. The creative maniac. Not anymore.'"
-  }
+  },
+  ...s2Shorts,
 ]
 
 export const pillarVideos: PillarVideo[] = [
@@ -1591,7 +1599,8 @@ export const pillarVideos: PillarVideo[] = [
     ],
     "runtime_estimate": "25-30 min",
     "thumbnail_concept": "Triptych strip of three photographed frames — the 6:00pm hair check, the hour-3 sweat, the 1:20am 'Action' — laid like film cells; a single hand-drawn clock hand sweeps across all three panels frame-by-frame; title layer 'SIX HOURS.'"
-  }
+  },
+  ...s2PillarVideos,
 ]
 
 export const quotes: Quote[] = [
@@ -2000,7 +2009,8 @@ export const quotes: Quote[] = [
     "category": "Prophecy & 2029",
     "strength": 4,
     "use": "Channel-trailer humility beat that makes the prophecy material likable"
-  }
+  },
+  ...s2Quotes,
 ]
 
 export const themes: Theme[] = [
@@ -2498,7 +2508,8 @@ export const themes: Theme[] = [
       "Merch",
       "Lead magnet / website"
     ]
-  }
+  },
+  ...s2Themes,
 ]
 
 export const arcs: Arc[] = [
@@ -3049,7 +3060,8 @@ export const arcs: Arc[] = [
       "Not Tired",
       "A Husky You Need to Walk"
     ]
-  }
+  },
+  ...s2Arcs,
 ]
 
 export const physicalMoments: PhysicalMoment[] = [
@@ -3502,7 +3514,8 @@ export const physicalMoments: PhysicalMoment[] = [
     "timestamp": "06:03:54",
     "description": "At 1:20 AM, calls 'Action' and physically performs both sides of the phone call that hired Chris — switching characters, closing eyes for the wish, playing the reveal.",
     "content_idea": "Split-screen edit (Spencer-as-himself vs. Spencer-as-Chris); the film's final scene, the trailer closer, and a standalone 'how I hired my cameraman with a magic trick' short."
-  }
+  },
+  ...s2PhysicalMoments,
 ]
 
 export const ideas: string[] = [
@@ -3649,7 +3662,8 @@ export const ideas: string[] = [
   "Carousel/newsletter: 'Nibbles and sips, no chugging' — consumption etiquette for abundance (chug beer / sip champagne / nibble caviar / two ounces of Wagyu) remapped to attention, dopamine, and how people binge content.",
   "Vlog episode: '1:15 AM — Complete, not tired' — the last ten minutes as a standalone piece on choosing work that energizes ('letting the dog run'), ending on 'that's a wrap.'",
   "LinkedIn contrarian post: 'Job finished? Don't think so.' — anti-celebration culture take (against congratulating funding rounds and progress posts), captioned clean, raw video in comments.",
-  "One-question decision filter asset: 'You get to be selfish in one question — what sets your soul on fire?' — email, quote card, and the opening prompt of his discovery calls / Oracle onboarding."
+  "One-question decision filter asset: 'You get to be selfish in one question — what sets your soul on fire?' — email, quote card, and the opening prompt of his discovery calls / Oracle onboarding.",
+  ...s2Ideas,
 ]
 
 export const youtube: YouTubeStrategy = {
@@ -3661,7 +3675,9 @@ export const youtube: YouTubeStrategy = {
       "source_themes": [
         "Do You Own It? — Ownership as the Only Game",
         "The Consciousness Upload — the Machine That Builds Machines",
-        "Betrayal to Sovereignty: Why Every Client Owns Everything (arc)"
+        "Betrayal to Sovereignty: Why Every Client Owns Everything (arc)",
+        "True Scalability — the Oracle's Founder-First Pitch (S2)",
+        "The Moment of Completion — Execution Doctrine for Founders (S2)"
       ]
     },
     {
@@ -3680,7 +3696,9 @@ export const youtube: YouTubeStrategy = {
         "Containment — the Named Discipline of the Next Epoch",
         "The Genie Protocol — Precise Language Fused With AI",
         "Integrity Is the Magic Trick — Zero Impedance",
-        "The Shapeshifter's Deck — Sub-Personalities and the Sticky-Note Oracle"
+        "The Shapeshifter's Deck — Sub-Personalities and the Sticky-Note Oracle",
+        "Reality vs. Truth — Precise Language as the Way Home (S2)",
+        "Prayer Is Prompting — One Protocol for God and the Machine (S2)"
       ]
     },
     {
@@ -3699,7 +3717,10 @@ export const youtube: YouTubeStrategy = {
         "The Pattern — Rise, Woman, God-Mode, Loss",
         "Love Relocates — the Relationship Alchemist",
         "The Thousand-Dollar Witness (arc)",
-        "The Body Keeps the Tape (arc)"
+        "The Body Keeps the Tape (arc)",
+        "Love Is Unconditional; Relationships Are Conditions (S2)",
+        "Processing Shame Gracefully — the One Lever (S2)",
+        "Job Finished: The Breakup Happens On Camera (S2 arc, clearance-gated)"
       ]
     }
   ],
@@ -3764,9 +3785,26 @@ export const youtube: YouTubeStrategy = {
         "The Charge — six weeks of pressure, one night of release (15–20 min)",
         "Eve of Battle: 14 Days — the countdown cut with on-screen clock (12–15 min)"
       ]
+    },
+    {
+      "title": "The Cards (Session 2)",
+      "premise": "The question-driven sibling of the Sticky Note Sessions, born whole in the July shoot: a homie behind the camera feeds a written card, Spencer answers in one take, the card itself is the cover frame. Where the notes are transmission mode (self-authored doctrine), the cards are response mode — the answers arrive live, which is why Session 2's density of self-contained cuts beats Session 1's. The deck alternates lanes: doctrine cards (choosing vs. allowing, the truest test of control), heart cards (I fully believe in my partner), and flip cards he rewrites on camera ('done this one — let's take a different spin').",
+      "cadence": "2 per week once the S2 batch cuts — the July deck holds 12+ episodes; every future shoot alternates notes deck / cards deck",
+      "episodes": [
+        "Choosing vs. Allowing — The Seafood Rule (C100)",
+        "Prayer Is Prompting God (C114)",
+        "The 1% Mirror (C102)",
+        "The Truest Test of Control (C121)",
+        "Perfect, and Not for Me (C112)",
+        "I Fully Believe in My Partner (C122)",
+        "Action Dictates Priority (C113)",
+        "The Trap of the Wise — Doggy Doggy (C119)",
+        "I Don't Get Mad. I Lose Interest. (C98)",
+        "Know Your Role. Process Later. (C115)"
+      ]
     }
   ],
-  "cadence": "Sixteen published pieces per month from one 6-hour shoot every ~2 weeks plus the existing 200-piece backlog: 3 Sticky Note Shorts per week (Mon/Wed/Fri) + 1 \"Do You Own It?\" mid-form every Tuesday + 1 \"Wisdom Originator\" long-form every other Saturday + 1 \"Night Tapes\" documentary cut per month. The June 21 backlog alone funds this calendar through November 1; each new biweekly shoot yields roughly 2 long-forms, 4 mid-forms, and 20+ shorts, so the machine runs one shoot ahead of the calendar at all times. Edit load stays fixed because every format runs on a locked template: the Dehancer grade preset, the stop-motion layer kit, the disclaimer card, and the freeze-on-next-thumbnail end plate.",
+  "cadence": "Sixteen published pieces per month from one 6-hour shoot every ~2 weeks plus the existing 200-piece backlog: 3 Sticky Note Shorts per week (Mon/Wed/Fri) + 1 \"Do You Own It?\" mid-form every Tuesday + 1 \"Wisdom Originator\" long-form every other Saturday + 1 \"Night Tapes\" documentary cut per month. The June 21 backlog alone funds this calendar through November 1; each new biweekly shoot yields roughly 2 long-forms, 4 mid-forms, and 20+ shorts, so the machine runs one shoot ahead of the calendar at all times. Edit load stays fixed because every format runs on a locked template: the Dehancer grade preset, the stop-motion layer kit, the disclaimer card, and the freeze-on-next-thumbnail end plate. PROOF OF CADENCE: Session 2 landed on schedule (the July shoot, 2h36m, uploaded 7.22) and delivered the promised refill — 46 new clips, 14 shorts, 3 pillar assemblies — so the machine enters August running one full shoot ahead of the calendar, exactly as designed. The mix shifted on its own: S2 is heart-chapter heavy, which hands September's Human month its entire supply and adds a fifth lane (The Cards) to the shorts engine.",
   "first_30_days": [
     "Jul 6–8: Stand up the channel — handle, banner from the sticky-note wall photo, bio line 'You say something is possible — I will make it real,' About page written from the 00:45:24 wizard thesis, and a description template that ends every video with 'Do your clients own it?' plus the booking link and the Ownership Audit lead magnet.",
     "Jul 6–9: Build the factory before publishing — lock the Dehancer film-emulation preset, the stop-motion layer template, the standing prophecy disclaimer card ('This is not truth — it is what I'm hearing'), the freeze-on-next-thumbnail end plate, and the Shorts caption style. Every future edit runs through these five templates.",
@@ -3948,6 +3986,36 @@ export const linkedin: LinkedInStrategy = {
       "body": "Two Saturdays ago I hired a friend to run a camera for one day.\n\nBy that afternoon I had wired him $1,000. He watched me send it. It's on the footage.\n\nNot because the market rate demanded it. Because the measure of wealth I trust is outbound.\n\nAnyone can hoard. Hoarding is the default setting of a scared nervous system.\n\nSending is the skill.\n\nPaying fast. Paying more than asked. Funding the person before they're 'proven.' Tipping the moment instead of the transaction.\n\nEvery wire you send is a vote for the world where value moves.\n\nAnd here's what I've watched for years: the senders end up surrounded by people who run through walls for them. The hoarders end up negotiating with everyone, forever.\n\nOne of those is expensive. Guess which.\n\nHow many wires did you send this month?",
       "source_timestamp": "05:03:40",
       "format": "notes-photo (the handwritten wires-sent sticky + the wire receipt, name redacted)"
+    },
+    {
+      "hook": "There is one frame where the work is actually done. Most founders can't name it.",
+      "body": "The eye sees the world at about 100 frames a second.\n\nSomewhere in there is a single frame where the thing is DONE.\n\nThe number one skill of execution is knowing that frame in advance — taking a snapshot of it before you start.\n\nWe built a book-a-call funnel. When is it done?\n\nNot when the page is live. Not when the ads run. Not when calls get booked.\n\nDone is the frame where money from the sale hits the founder's PERSONAL bank account.\n\nInput: someone reads an ad. Output: the founder got paid. Everything else is middle.\n\nHere's the uncomfortable part: it always comes down to personal wealth. Not 'the business.' The founder. Everybody else on the payroll is already getting paid — the system exists to make sure YOU do.\n\nThat's why I don't build software for companies.\n\nI build it for founders. That's whose dreams you're making come true.\n\nName the completion frame for your biggest project right now. One sentence.\n\nIf you can't — that's the problem to solve first.",
+      "source_timestamp": "S2 00:14:17",
+      "format": "text story (Session 2)"
+    },
+    {
+      "hook": "Your company scales on one screen per person.",
+      "body": "Here's the entire scaling doctrine, no framework diagram required:\n\nIf each person in your organization wakes up, looks at a screen, and it is VERY clear what is the most important thing they need to execute today —\n\nand they do that, day after day, week after week, quarter by quarter —\n\nyour company has no other choice but to thrive.\n\nUnless the strategy is bad. Then you call a strategist.\n\nBut most companies don't fail on strategy.\n\nThey fail on execution. It's 90% of it.\n\nThis is what the Oracle actually does: it holds every transcript, every meeting, every commitment you've made — and everyone's made to you — and answers one question per person per morning:\n\nWhat do I execute today?\n\nA plan is a series of estimated steps. The moment you take one step, the game changes. So the software doesn't worship the plan — it serves the next step.\n\nOne screen. One thing. Every person. Every day.\n\nDo you own a machine that can do that?",
+      "source_timestamp": "S2 00:11:21",
+      "format": "text story (Session 2)"
+    },
+    {
+      "hook": "Every founder I've scaled says the same six words: I wish there were a million me's.",
+      "body": "I've helped scale about two dozen companies.\n\nSix figures to seven. Seven to eight.\n\nEvery single founder, at some point, says the same sentence: 'I just wish there were a million me's.'\n\nHere's what a scaled company actually is:\n\nThe expression of the founder's intent through other people.\n\nThat's it. Humans and machines acting on the owner's intent to deliver the thing.\n\nSo that's what we build. We extract the founder's genius — how estimates really get priced, which customers really matter, what done really means — into software the business owns.\n\nNew offer? The software evolves. New team? It onboards them. Complete 90-degree pivot? It pivots with you — because it was built from your consciousness, not a vendor's roadmap.\n\nAnd you own it. The data. The code. Full control.\n\nWhy would you do anything else if that's true?\n\nThe SaaS industry's answer to that question is the reason I have a job.",
+      "source_timestamp": "S2 01:39:48",
+      "format": "text story (Session 2)"
+    },
+    {
+      "hook": "His client paid $20,000 for two days and walked away with a Google Doc. He was ecstatic.",
+      "body": "A friend of mine helps people write books.\n\nThe two-day intensive is $20K. The full published book is $80K.\n\nHe told me about a client who did the two days and ended up with… a Google Doc. A raw reflection of their time together.\n\nThe client was ecstatic.\n\nBecause the part that mattered wasn't the deliverable. It was the extraction — his life story pulled out of him and given a shape for the first time.\n\nHere's the lesson for every service business:\n\nYou don't work for the deliverable. You work for the person who paid you to help create their vision.\n\nSo how do you know you did a good job?\n\nNot when the deliverable is perfect.\n\nWhen their heart is happy.\n\nEvery scope document, every milestone, every revision cycle is downstream of that one metric.\n\nI build custom AI software, and I hold the same rule: the barometer isn't the feature list.\n\nIt's the founder's heart, happy.",
+      "source_timestamp": "S2 00:03:55",
+      "format": "text story (Session 2)"
+    },
+    {
+      "hook": "Achievement and success are not the same thing. Most founders grade themselves on the wrong one.",
+      "body": "Achievement is checking the box of what's required.\n\nSuccess is the metric that measures whether it worked.\n\nYou can achieve everything on the list — ship the funnel, run the ads, launch the offer — with perfect integrity, and still make $100K when you wanted a million.\n\nThat doesn't mean you failed. It means the strategy was off.\n\nHere's why the distinction matters:\n\nThe barometer of whether YOU are doing well is integrity — did you follow through on what you committed to?\n\nThe barometer of whether the STRATEGY is doing well is the numbers.\n\nFounders who blur these two either torture themselves over strategy misses they executed flawlessly — or excuse broken promises because the numbers happened to land.\n\nGrade yourself on integrity. Grade the plan on results.\n\nThen fix whichever one actually broke.",
+      "source_timestamp": "S2 01:41:22",
+      "format": "text story (Session 2)"
     }
   ],
   "lead_gen": [
@@ -4021,6 +4089,21 @@ export const vlog: VlogStrategy = {
       "title": "Ep 10 — Action. (The 1:30am Wrap)",
       "premise": "The finale: 1:15am, 'I think the wisdom originator is complete,' the final energy audit — 'Complete. Not tired. And it's super terrifying. This was fun. That's a wrap.' — and then the magic trick: Spencer calls 'Action' and performs both sides of the morning phone call that hired Chris, whose wishes (quit driving Uber, try ketamine) all came true that same day. The season's thesis proven with receipts: 'You say something is possible — I will make it real.' End card: the Valeria debrief stats — 200 pieces, six months of content, and this vlog — from one night.",
       "source": "The Magic Trick arc (beats 06:02:55, 06:03:15, 06:03:54); The Discharge arc (beat 06:03:15); clips C02, C24; physical beat 06:03:54"
+    },
+    {
+      "title": "S2 · Ep 1 — The Cat Understands (Season 2 opener)",
+      "premise": "Season 2 of The Tape opens on the July session: same desk, same shawl, aviators on from frame one — and Meow Meow finally on camera. The cat-door doctrine ('you are treated the way you request to be treated through your actions') plays as pure comedy, the name-tag bit lands ('obsessed with God's love, AI — and this one girl'), and the audience is armed with the thesis they'll need for the rest of the season without knowing why yet. Ends frozen on the card deck — Episode 2's thumbnail.",
+      "source": "S2 arcs: The Cards (beats 00:57:53, 00:25:16); clips C81, C91, C82; physical beats 00:01:00, 00:04:16"
+    },
+    {
+      "title": "S2 · Ep 2 — Job Finished. (clearance-gated)",
+      "premise": "The trough episode of Season 2 and the rawest cut in the archive: the needs stated to camera ('I want to be acknowledged — is this okay?'), the sentence that never finishes, the break, the electric blanket, and the texts read verbatim — 'Thank you. It worked. That's why I'm leaving. Job finished.' Interleaved with the doctrine the night produced in real time: choosing vs. allowing, self-respect as outbound, the 1% mirror. PUBLISHING GATE: ships only with Spencer's explicit sign-off; she is never named; the Amazon-blanket comedy stays as the mercy in the cut.",
+      "source": "S2 arc: Job Finished (all beats); clips C104, C105, C106, C117; physical beats 01:16:17, 01:19:34"
+    },
+    {
+      "title": "S2 · Ep 3 — The Storm's Eye + The 90-Degree Pivot (season closer)",
+      "premise": "The composure episode: the same night a relationship ends, the cleanest business doctrine on tape gets delivered — completion frames, true scalability, two dozen companies — with time-stamped chapter cards showing what happened between takes. Duty doctrine demonstrated, not described: 'bring those feelings with you, but you got to get it done. Process later.' Closes on the arms-crossed final statement — 'the sharpest 90-degree pivot I've ever had, in a good way' — and the posture time-lapse: open palms to crossed arms, the whole season with the sound off.",
+      "source": "S2 arcs: The Operator in the Storm's Eye (all beats), Job Finished (beats 02:04:50, 02:33:45); clips C109, C115, C126; physical beats 01:58:47, 02:28:13, 02:34:46"
     }
   ],
   "site_integration": [
@@ -4166,6 +4249,7 @@ export const workflow: WorkflowPlan = {
     "Pull the subclip by mined timecode; verify in/out against the transcript and trim to first spoken word / last spoken word (+12 frames of air).",
     "Hook lands inside the first 2 seconds — open on the mined hook line or the physical beat, zero wind-up.",
     "Sensitivity gate: bleep or cut all third-party names (Spencer's on-camera instruction at 04:53:15), never name the girlfriend, hold flagged segments (Carolina beat, 04:52:22 bit) for editorial review before export.",
+    "Session 2 clearance gate: the girl/breakup material (C105, C106, C117, C120) and the exes catalogue (C96) ship NOWHERE without Spencer's explicit sign-off — vlog-tier by default, she is never named, texts are read-only (never shown on screen). Spencer flagged one run on tape as not-for-LinkedIn (S2 00:39:20, the spectrum riff → route C124's harder cuts to YouTube/vlog only).",
     "Substance check per platform: weed/ketamine/wine visible = fine for vlog, trim or crop for LinkedIn and for YouTube monetized cuts.",
     "Prophecy clips cold-open with the standing disclaimer card: 'This is not truth — it's what I'm hearing' (00:14:49 rule).",
     "Apply 'The Look' PowerGrade; check skin tone and exposure after Dehancer — one grade, every clip, no exceptions.",
@@ -4276,12 +4360,12 @@ export const calendar: CalendarPlan = {
     {
       "month": "August 2026",
       "theme": "AUTHORITY — Receipts: Scar Tissue Into Doctrine",
-      "goal": "Turn launch attention into authority. The 188 Months / Betrayal-to-Sovereignty arc runs story-first then doctrine (wounds before pitch), client proof stacks (70% bill cut, 30-day plumbing rebuild), Genie Protocol + Kill List + Ownership Audit lead magnets go live, podcast pitch kit ships. New Shoot #2 covers the named backlog gap: zero fresh client-results/proof footage remains after Week 6."
+      "goal": "Turn launch attention into authority. The 188 Months / Betrayal-to-Sovereignty arc runs story-first then doctrine (wounds before pitch), client proof stacks (70% bill cut, 30-day plumbing rebuild), Genie Protocol + Kill List + Ownership Audit lead magnets go live, podcast pitch kit ships. SESSION 2 LANDED (Jul 22, 2h36m): the operator core — completion frames, execution-is-90%, true scalability, the through-line method — refills exactly the authority lane this month burns, and the Reality vs. Truth masterclass becomes August's second pillar. Shoot #2's remaining gap narrows to client-results/proof footage only."
     },
     {
       "month": "September 2026",
-      "theme": "DEPTH — Inside the Wizard's Head",
-      "goal": "Deepen parasocial trust with the human arcs: Downloads, Containment Week, the fever lore, The Cameraman two-hander, and The Love Story on the vlog lane. Sub-personality lanes formally split (Relationship Alchemist vs business channel), intensity-meter HUD debuts. New Shoot #3 is a stop-motion production day — the layered-photographic technique requires original overhead/insert photography the 6-hour fixed-camera backlog does not contain."
+      "theme": "DEPTH — Inside the Wizard's Head (and the Heart Chapter)",
+      "goal": "Deepen parasocial trust with the human arcs: Downloads, Containment Week, the fever lore, The Cameraman two-hander, and The Love Story on the vlog lane. Session 2 supplies this month its entire second wave: The Heart Chapter pillar, the shame-processing curriculum, The Cards series at full cadence, The God Tape, and — clearance permitting — the Job Finished documentary as the season's trough episode. Sub-personality lanes formally split (Relationship Alchemist vs business channel), intensity-meter HUD debuts. New Shoot #3 is a stop-motion production day — the layered-photographic technique requires original overhead/insert photography neither fixed-camera master contains."
     },
     {
       "month": "October 2026",

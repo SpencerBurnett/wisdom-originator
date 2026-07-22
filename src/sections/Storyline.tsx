@@ -64,9 +64,9 @@ export default function Storyline() {
   return (
     <div>
       <SectionHeader
-        kicker="The Storyline · April 1 → July 6, 2026"
-        title="One arc. Two journeys. Ninety-six days."
-        sub="The whole story, reconstructed from every call recording, transcript, and build log in the window: the Wizard's hero's journey and, threaded through it, the Machine's evolution — the technology that makes the magic literal. The stories he tells all the time are pinned where they happened and where he tells them."
+        kicker="The Storyline · April 1 → July 22, 2026"
+        title="One arc. Two journeys. Two witnesses."
+        sub="The whole story, reconstructed from every call recording, transcript, and build log in the window: the Wizard's hero's journey and, threaded through it, the Machine's evolution — the technology that makes the magic literal. The arc now runs through the Second Witness: the July cards session where the heart chapter got its tape. The stories he tells all the time are pinned where they happened and where he tells them."
       />
 
       {chapters.length === 0 ? (

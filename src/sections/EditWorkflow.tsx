@@ -8,7 +8,7 @@ export default function EditWorkflow() {
       <SectionHeader
         kicker="Edit & Publish Workflow"
         title="From Frame.io master to published, on repeat"
-        sub="Timestamp-driven editing: the clip library IS the edit decision list. Nobody scrubs six hours of footage — the transcript already did that work."
+        sub="Timestamp-driven editing: the clip library IS the edit decision list. Nobody scrubs eight-plus hours across two masters — the transcripts already did that work. Session 2 clips run the same pipeline with one extra stop: the S2 clearance gate."
       />
 
       <h2 className="font-display text-2xl text-bone mb-5">The pipeline</h2>

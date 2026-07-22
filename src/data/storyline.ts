@@ -74,6 +74,12 @@ export const chapters: Chapter[] = [
     "title": "The Foundation of Stability",
     "date_range": "2026-07-13 → Ongoing",
     "narration": "The story pivots. The machine is built, the tour is published. Now, the narrative weaves the last six months of struggle—the 106.5 fevers, the broken pipelines, the imposter syndrome—into the ultimate teaching: agility is the only moat, and stability is the bedrock. Starting next week, the content shifts from documenting the build to handing the blueprints over. The wizard steps back, the mentor steps forward, showing founders how to build their businesses for stability before the storm."
+  },
+  {
+    "stage": "The Second Witness",
+    "title": "The Heart Chapter",
+    "date_range": "2026-07-16 → 2026-07-22",
+    "narration": "The camera comes back — and this time it asks questions. On a Thursday night in mid-July, a homie runs a deck of written cards from behind the lens: same desk, same shawl, aviators on from frame one. What the deck extracts is the chapter the first session only gestured at: love as the unconditional constant and relationships as conditions, reality versus truth with precise language as the way home, prayer revealed as prompting God. And in the gaps between segments, the doctrine gets its live trial — a relationship ends on camera, texts read verbatim, two words closing the case: job finished. The physical tape tells it wordlessly: open palms in hour one, a phone at the midpoint, crossed arms at the wrap. The machine ingests the master the day it uploads. Two sessions in, the film has a second act — the wizard who built the machine is now letting it witness his heart."
   }
 ]
 
@@ -534,6 +540,38 @@ export const events: TimelineEvent[] = [
     "track": "machine",
     "stage": "Return with the Elixir",
     "image": "/pics/IMG_1337.jpeg"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "Session 2 shoots: the cards come out",
+    "body": "On a Thursday night in mid-July, the camera returns to the playhouse — this time with a homie feeding written question cards from behind the lens. 2h36m, aviators on from frame one, Meow Meow's on-camera debut, and the thesis stated in minute one: you are treated the way you request to be treated through your actions.",
+    "track": "wizard",
+    "stage": "The Second Witness",
+    "image": "/frames2/t00060.jpg"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "The breakup happens on camera",
+    "body": "Between segments, the two-month relationship ends — needs stated to the lens, a break, and the texts read verbatim into the record: 'Thank you. It worked. That's why I'm leaving. Job finished.' The session's own doctrine narrates it in real time; the final half hour plays out arms-crossed and resolved.",
+    "track": "lore",
+    "stage": "The Second Witness",
+    "clearance": true
+  },
+  {
+    "date": "2026-07-16",
+    "title": "Prayer is prompting — the tracks unify on tape",
+    "body": "Fifty-three seconds in hour two fuse the whole brand: 'Prayer is simply prompting God... and prompting is merely prayer to the AI. Be clear and precise with what you request, because you will get precisely what you ask for.' The mystic track and the machine track become one sentence.",
+    "track": "wizard",
+    "stage": "The Second Witness",
+    "image": "/frames2/t07720.jpg"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "Session 2 uploads and the machine eats it same-day",
+    "body": "The Pt. 2 master (CR5E0001, 2h36m) lands on Frame.io and gets mined into the Command Center the same day: 46 clips, 54 quotes, 9 themes, 4 arcs, 16 stills, a new series format (The Cards), and three pillar assemblies. The biweekly refill promise written into the July plan kept itself on schedule — the machine now runs one full shoot ahead of the calendar.",
+    "track": "machine",
+    "stage": "The Second Witness",
+    "image": "/frames2/t09292.jpg"
   }
 ]
 
@@ -675,5 +713,37 @@ export const toldStories: ToldStory[] = [
     "when_told": "not captured (adjacent: 2026-05-28)",
     "stage": "The Road Back",
     "clearance": true
+  },
+  {
+    "title": "The 11pm Text",
+    "teaser": "She threw up over a text he never sent. The sweat was real. The story wasn't.",
+    "full": "The parable that carries the reality-vs-truth doctrine: she texts goodnight at 11. No reply until 6am — 'sorry baby, I missed your message.' In the seven hours between, she lives the whole betrayal: the friend whose boyfriend stayed out, the story building, emotions so intense she's shaking, sweating, throwing up. All of it real — 'the scoreboard is real.' And the truth: he fell asleep after she said goodnight and woke at five to grab overtime, because he's saving for her birthday cruise. Does the truth un-happen her night? No — 'that's what we call discrediting.' You honor the reality people go through while staying loyal to the truth. And when your reality turns out to sit outside the truth, the thing you feel is shame — which is where gaslighting is born, and where precise language is the way back.",
+    "where_told": "Session 2 tape",
+    "when_told": "2026-07-16 (S2 00:18:59)",
+    "stage": "The Second Witness"
+  },
+  {
+    "title": "The Movie That Was Never Made",
+    "teaser": "Meet cute, perfect dates, puppy ring bearer, empty nesters. They'll make six Spider-Mans — they will not make that movie.",
+    "full": "The full pitch, performed: a couple meets — oh my gosh, you're amazing. Great first date, kiss, another great date. The parents adore them; they're calling him son already. They move in. Christmas puppy — and in this movie they actually rip the wrapping paper. The puppy is the ring bearer nine months later. I do, I do, kiss, kids, family friends, college, empty nesters. Roll credits. 'You remember that movie? That was never made. Ever. They'll make six fucking Spider-Mans. They will not make that movie. Why is that? Because you love the fucking drama.' People vote with their wallets; drama is delicious exactly when it can't hurt you — the guy with the knife is on the screen. And his extension: with total faith that God has you, ALL of life gets the safety net. 'So you ask me why I accept the crazy girls? Because I know I'm good no matter what. I get more entertainment than the rest of you.'",
+    "where_told": "Session 2 tape",
+    "when_told": "2026-07-16 (S2 01:46:30)",
+    "stage": "The Second Witness"
+  },
+  {
+    "title": "Dad's Horn Lesson",
+    "teaser": "I honked the horn from the driveway. My dad made me walk to the door. Be a gentleman or don't have a girlfriend.",
+    "full": "The counterweight story inside the mothers-question rant: teenage Spencer, outside a girl's house, honks the horn because he's ready. His dad's correction is total: walk up to the door. Knock. Wait. When she's ready, walk out WITH her. Open the car door. 'Be a fucking gentleman or don't have a girlfriend.' And here's how you love her — 'so many lessons.' The story exists to sharpen the question that follows it: that was the paternal curriculum for how to treat a woman. 'What do women pass down to their daughters about how to make a man happy? Happy wife, happy life — there's no reciprocal catchphrase.' The wholesome half of the tentpole; it ships paired with the question so the argument arrives with its answer.",
+    "where_told": "Session 2 tape",
+    "when_told": "2026-07-16 (S2 02:28:29)",
+    "stage": "The Second Witness"
+  },
+  {
+    "title": "The Fireplace",
+    "teaser": "Days with his head in the fireplace, singing breakup songs, begging someone to light it. His buddy's diagnosis: he's choosing to be sad.",
+    "full": "Twenty-nine years old, freshly broken up, and Spencer spends days theatrically sulking with his head in the unlit fireplace, singing breakup ballads. A friend's girlfriend asks the obvious: if he can instantaneously shapeshift — change frame, change experience — why is he sitting here like this? The buddy answers for him: 'Because he's choosing to be sad.' The lesson that survives: some emotions clear instantly, and some are worth sitting in for a second to collect the lesson — the difference is choosing it consciously instead of drowning in it. Told in Session 2 as the setup for the sounding-board teaching: sometimes a person in a feeling needs nothing fixed — 'I don't need you to do anything. I just want to talk to you about it.'",
+    "where_told": "Session 2 tape",
+    "when_told": "2026-07-16 (S2 00:37:21)",
+    "stage": "The Second Witness"
   }
 ]

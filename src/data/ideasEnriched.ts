@@ -2840,6 +2840,150 @@ export const enrichedIdeas: EnrichedIdea[] = [
       "Send to the list and add the quote card to the STREAM feed"
     ],
     "first_action": "Lock the one-question copy and design the Download-Pose quote card."
+  },
+  {
+    "idx": 1101,
+    "title": "The Cards — Session 2's Answer to the Sticky Notes",
+    "summary": "Launch the question-driven series born whole in the July shoot: a card is fed from behind the camera, answered in one take, and the handwritten card is the cover frame. Response mode to the notes' transmission mode.",
+    "platform": "youtube",
+    "archetype": "Wisdom Originator",
+    "effort": "medium",
+    "impact": "flagship",
+    "month": "August",
+    "image": "/frames2/t00060.jpg",
+    "implementation": [
+      "Photograph the S2 question cards overhead in the June 21 lighting — the deck's cover-frame library",
+      "Cut the pilot trio: The Seafood Rule (C100), Prayer Is Prompting (C114), The 1% Mirror (C102)",
+      "Lock the format rules: one card, one answer, under 90s, freeze on the next card",
+      "Slot 2/week into the shorts cadence alongside the Sticky Note Sessions"
+    ],
+    "first_action": "Photograph the card deck and cut the Seafood Rule pilot."
+  },
+  {
+    "idx": 1102,
+    "title": "Prayer Is Prompting God",
+    "summary": "Ship C114 untrimmed as the Session 2 announcement short — the 53 seconds that fuse the mystic track and the machine track into one sentence. Merch and email follow the clip.",
+    "platform": "shorts",
+    "archetype": "The Oracle",
+    "effort": "light",
+    "impact": "flagship",
+    "month": "August",
+    "image": "/frames2/t07720.jpg",
+    "implementation": [
+      "Cut C114 (01:56:46–01:57:39) whole — no trims, the self-contained sermon",
+      "Cover frame: the crossed-wrists prayer posture (2:08:36)",
+      "Drop the PRAYER = PROMPTING typography card same week on IG and LinkedIn",
+      "Route the email list to the Genie Protocol lead magnet as the crossover CTA"
+    ],
+    "first_action": "Cut the 53-second clip and set the prayer-posture cover frame."
+  },
+  {
+    "idx": 1103,
+    "title": "Reality vs. Truth — The Precise Language Masterclass",
+    "summary": "The S2 anchor pillar: Adam and Eve naming the animals, the 11pm-text parable, shame, gaslighting, shared reality — landing on precise language as the way back. The brand's core claim finally gets its cinematic argument.",
+    "platform": "youtube",
+    "archetype": "Wisdom Originator",
+    "effort": "heavy",
+    "impact": "flagship",
+    "month": "August",
+    "image": "/frames2/t01434.jpg",
+    "implementation": [
+      "Assemble C89 + C90 + C100 with the C114 close per the pillar spec",
+      "Animate the 11pm-text parable as hand-drawn text bubbles on two timelines",
+      "Thumbnail: the split-grade face with the crayon wall — REAL ≠ TRUE",
+      "Ship the companion carousel (8 slides, definition → gaslighting → the way back) to LinkedIn"
+    ],
+    "first_action": "Assemble the C89/C90 selects reel and storyboard the text-bubble animation."
+  },
+  {
+    "idx": 1104,
+    "title": "The Completion Worksheet",
+    "summary": "Lead magnet from the moment-of-completion doctrine: name the single snapshot frame where each of your top three projects is DONE — defined the founder's way (money in the personal account, not 'launched').",
+    "platform": "linkedin",
+    "archetype": "Lion",
+    "effort": "light",
+    "impact": "solid",
+    "month": "August",
+    "image": "/frames2/t00845.jpg",
+    "implementation": [
+      "One page: three projects, three completion frames, the input→output test from C87",
+      "Gate behind the keyword FRAME in the completion text post's comments",
+      "Wire James's DM funnel: worksheet → 'what's your frame?' → diagnostic-call filter",
+      "Pair with the C87 clip as the native-video companion"
+    ],
+    "first_action": "Draft the one-page worksheet in Spencer's exact C87 language."
+  },
+  {
+    "idx": 1105,
+    "title": "Job Finished. — The Breakup Documentary",
+    "summary": "The vlog-only trough episode of Season 2: the needs stated, the break, the texts read verbatim, the doctrine narrating in real time. Ships only through the hard clearance gate — Spencer's explicit sign-off, she is never named.",
+    "platform": "vlog",
+    "archetype": "Wisdom Originator",
+    "effort": "heavy",
+    "impact": "flagship",
+    "month": "September",
+    "image": "/frames2/t04774.jpg",
+    "implementation": [
+      "Assemble the Job Finished arc beats chronologically with doctrine chapter cards between",
+      "Hold the clearance review with Spencer before any edit time is spent past selects",
+      "Keep the comedy beats (blanket, magnets, 'do I look bothered?') — the mercy in the cut",
+      "End on the arms-crossed final frame with the scenic-route line as the epigraph"
+    ],
+    "first_action": "Book the clearance conversation — the gate decides whether this exists."
+  },
+  {
+    "idx": 1106,
+    "title": "The Founder's Oracle — True Scalability",
+    "summary": "The S2 business pillar: the command center, execution-is-90%, AI automating the 2D, completion frames, the through-line spine, and the two-dozen-companies résumé — chained to S1's One-Shot Prompt and Software That Rebuilds Itself.",
+    "platform": "youtube",
+    "archetype": "Mad Scientist",
+    "effort": "medium",
+    "impact": "flagship",
+    "month": "September",
+    "image": "/frames2/t05952.jpg",
+    "implementation": [
+      "Assemble C84 + C85 + C86 + C87 + C109 + C116 per the pillar spec",
+      "Screen-record the real command center extracting commitments for the demo overlay",
+      "Thumbnail: the one-glowing-screen hand-drawn layer — ONE SCREEN",
+      "End-freeze chains to S1's C26 One-Shot Prompt thumbnail (cross-session filmstrip)"
+    ],
+    "first_action": "Screen-record the command-center commitment extraction for the overlay."
+  },
+  {
+    "idx": 1107,
+    "title": "The Movie They'll Never Make",
+    "summary": "The rom-com pitch as a stop-motion-illustrated comedy short: meet cute, puppy ring bearer, empty nesters — 'six Spider-Mans, zero drama-free movies.' The drama-appetite teaching smuggled inside the funniest bit of the session.",
+    "platform": "shorts",
+    "archetype": "The Host",
+    "effort": "medium",
+    "impact": "solid",
+    "month": "September",
+    "image": "/frames2/t06542.jpg",
+    "implementation": [
+      "Cut the pitch run from C111 (01:46:30–01:48:18) to 90 seconds",
+      "Hand-draw the movie beats as stop-motion layers (wrapping paper actually rips)",
+      "Freeze on 'they will not make that movie' — the title card",
+      "Follow-up card post: the boundary/limit-of-faith line for the argument cycle"
+    ],
+    "first_action": "Storyboard the eight hand-drawn movie beats from the pitch."
+  },
+  {
+    "idx": 1108,
+    "title": "What Did Your Mother Teach You?",
+    "summary": "The polarizing tentpole of the S2 drop: 'happy wife, happy life has no reciprocal catchphrase' + dad's be-a-gentleman lesson as the counterweight. Ships as a pair so the argument arrives with its answer. YouTube/vlog only per Spencer's on-tape flag.",
+    "platform": "youtube",
+    "archetype": "Lion",
+    "effort": "medium",
+    "impact": "solid",
+    "month": "October",
+    "image": "/frames2/t08899.jpg",
+    "implementation": [
+      "Cut C124 with the dad's-lesson beat as the built-in rebuttal",
+      "Title the pair: 'The Question' / 'The Answer My Dad Gave Me'",
+      "Hold off LinkedIn entirely — honor the on-tape platform flag",
+      "Pin the comment restating the actual question to steer the thread"
+    ],
+    "first_action": "Cut the question and the dad's-lesson answer as one paired package."
   }
 ]
 

@@ -179,6 +179,9 @@ export const lexicon = {
 }
 
 export const brandQuotes = [
+  { q: 'Prayer is simply prompting God. And prompting is prayer to the AI.', who: 'Spencer', t: 'S2 · 1:56:52' },
+  { q: 'You are treated the way you request to be treated — through your actions.', who: 'Spencer', t: 'S2 · 0:01:45' },
+  { q: 'The way to get back to the truth is precise language.', who: 'Spencer', t: 'S2 · 0:24:50' },
   { q: 'Content should really just be organization of documentation.', who: 'Spencer', t: '03:08' },
   { q: 'I created a year worth of content — or we created a year worth of content — in a day. And an entire brand.', who: 'Spencer', t: '42:20' },
   { q: 'If you’re a magician with your word, especially when singularity hits, you want to be as precise as possible.', who: 'Chris', t: '51:40' },

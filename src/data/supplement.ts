@@ -46,17 +46,19 @@ export const albumDeployment = {
 export const contentLedger = {
   target: 'Valeria-call commitment: ~200 unique pieces, ~50/50 video-image, six months of runway.',
   rows: [
-    { type: 'Self-contained clips (video)', count: 80, source: 'mined + timestamped, C01–C80' },
-    { type: 'Vertical shorts (video)', count: 25, source: 'derived from clips, shorts stack' },
-    { type: 'Pillar long-forms (video)', count: 8, source: 'clip-cluster assemblies' },
-    { type: 'Vlog episodes (video)', count: 12, source: 'arc-based first-person cuts' },
-    { type: 'Quote cards (image)', count: 58, source: 'quote wall × album backgrounds' },
+    { type: 'Self-contained clips (video)', count: 80, source: 'S1 mined + timestamped, C01–C80' },
+    { type: 'Session 2 clips (video)', count: 46, source: 'S2 mined + timestamped, C81–C126 (7.22 upload)' },
+    { type: 'Vertical shorts (video)', count: 39, source: 'derived from clips — 25 S1 + 14 S2' },
+    { type: 'Pillar long-forms (video)', count: 11, source: 'clip-cluster assemblies — 8 S1 + 3 S2' },
+    { type: 'Vlog episodes (video)', count: 15, source: 'arc-based first-person cuts — 11 S1 season + 3 S2 season two + BTS' },
+    { type: 'Quote cards (image)', count: 112, source: 'quote wall × album/frame backgrounds — 58 S1 + 54 S2' },
     { type: 'Sticky-note photos (image)', count: 50, source: 'the note wall, shot as stills' },
+    { type: 'Question cards (image)', count: 12, source: 'the S2 card deck, photographed overhead (The Cards covers)' },
     { type: 'Album images (image)', count: 90, source: 'the 90-image night album' },
-    { type: 'LinkedIn text posts', count: 15, source: 'ready-to-post drafts (more from idea bank)' },
+    { type: 'LinkedIn text posts', count: 20, source: 'ready-to-post drafts — 15 S1 + 5 S2 (more from idea bank)' },
   ],
   totals:
-    'That is 125 video pieces + 198 image pieces = 323 publishable units against the 200-piece commitment — a 60% overshoot with the video/image split intact. The constraint is not supply; it is publish slots. Burn-down: ~85% of strength-5 clips are consumed by Week 14, which is why Shoots #2–4 are pre-scheduled in the calendar.',
+    'Two sessions in: 191 video pieces + 264 image pieces = 455 publishable units against the 200-piece commitment — well over double, with the video/image split intact. The constraint is not supply; it is publish slots. Session 2 (uploaded 7.22, mined same-day) proved the refill mechanic: the biweekly-shoot cadence keeps the machine one full shoot ahead of the calendar, and the S1 strength-5 burn-down projected for Week 14 is now covered through November. Remaining named gap: client-results/proof footage — still the Shoot-#2-proper target.',
 }
 
 export const monthlyKpis: { month: string; kpis: string[] }[] = [
@@ -130,9 +132,10 @@ export const emailSpine = {
     'Welcome 3 — the fighter jet ("I build it, you fly it") + client receipts',
     'Welcome 4 — the precise-language codes (a real teaching, free)',
     'Welcome 5 — the diagnostic-call CTA (Josh\'s calendar)',
+    'Welcome 6 (S2 addition) — "Prayer is prompting God" — the crossover teaching that hands the spiritual reader the machine and the operator reader the mystery; routes both to the Genie Protocol',
   ],
   weekly:
-    'The Sticky Note — one note per week, photographed from the wall, 300 words of the riff behind it. Fifty notes = fifty weeks of newsletter = the book, serialized. Every issue ends: "Do you own it?"',
+    'The Sticky Note — one note per week, photographed from the wall, 300 words of the riff behind it. Fifty notes = fifty weeks of newsletter = the book, serialized. Every issue ends: "Do you own it?" From September, alternate weeks pull The Card instead — one Session 2 question card + the answer\'s 300-word distillation ("The sweat is real. The story isn\'t." runs first) — so the two decks serialize side by side.',
 }
 
 export const igLane =

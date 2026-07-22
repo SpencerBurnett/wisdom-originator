@@ -13,10 +13,14 @@ const platformLabels: Record<string, string> = {
 export default function Clips() {
   const [platform, setPlatform] = useState<string>('all')
   const [format, setFormat] = useState<string>('all')
+  const [session, setSession] = useState<string>('all')
 
   const formats = useMemo(() => ['all', ...Array.from(new Set(clips.map((c) => c.format)))], [])
   const filtered = clips.filter(
-    (c) => (platform === 'all' || c.platforms.includes(platform)) && (format === 'all' || c.format === format),
+    (c) =>
+      (platform === 'all' || c.platforms.includes(platform)) &&
+      (format === 'all' || c.format === format) &&
+      (session === 'all' || (session === '2' ? c.session === 2 : c.session !== 2)),
   )
 
   return (
@@ -24,9 +28,26 @@ export default function Clips() {
       <SectionHeader
         kicker="Clip Library"
         title="Every self-contained cut, by timestamp"
-        sub="Ranked master list mined from the transcript. Each entry stands alone with no outside context — hand any row to an editor and it becomes a piece of content. Filter by destination platform or format."
+        sub="Ranked master list mined from both transcripts — C01–C80 from the 6.21 marathon, C81–C126 from the July cards session (badged S2; timestamps reference each clip's own master). Each entry stands alone with no outside context — hand any row to an editor and it becomes a piece of content. Filter by session, destination platform, or format."
       />
 
+      <div className="flex flex-wrap gap-2 mb-4">
+        {[
+          { id: 'all', label: 'Both sessions' },
+          { id: '1', label: 'S1 · 6.21' },
+          { id: '2', label: 'S2 · July' },
+        ].map((s) => (
+          <button
+            key={s.id}
+            onClick={() => setSession(s.id)}
+            className={`rounded-full border px-3 py-1 text-xs transition-colors ${
+              session === s.id ? 'border-amber text-amber bg-amber/10' : 'border-edge text-faded hover:text-bone'
+            }`}
+          >
+            {s.label}
+          </button>
+        ))}
+      </div>
       <div className="flex flex-wrap gap-2 mb-4">
         {['all', 'youtube-long', 'youtube-short', 'linkedin', 'vlog', 'instagram'].map((p) => (
           <button
@@ -64,6 +85,7 @@ export default function Clips() {
                 <span className="font-mono text-[11px] text-dim">{c.id}</span>
                 <h3 className="font-display text-lg text-bone">{c.title}</h3>
                 <span className="ml-auto flex items-center gap-3">
+                  {c.session === 2 && <Tag tone="amber">S2</Tag>}
                   <Timestamp t={`${c.start} → ${c.end}`} />
                   <Stars n={c.strength} />
                 </span>
@@ -92,17 +114,23 @@ export default function Clips() {
         Sub-60-second vertical cuts, ready to caption and post. Each references its source clip above.
       </p>
       <div className="grid md:grid-cols-2 gap-4 mb-16">
-        {shorts.map((s, i) => (
-          <Fade key={i} delay={Math.min(i * 0.02, 0.2)}>
-            <Card>
-              <div className="flex items-baseline justify-between gap-3 mb-1.5">
-                <h3 className="text-bone text-sm font-medium">{s.title}</h3>
-                <span className="font-mono text-[11px] text-dim shrink-0">{s.source_clip}</span>
-              </div>
-              <p className="font-chalk text-lg text-amber/90 leading-snug">&ldquo;{s.hook}&rdquo;</p>
-            </Card>
-          </Fade>
-        ))}
+        {shorts.map((s, i) => {
+          const src = clips.find((c) => c.id === s.source_clip)
+          return (
+            <Fade key={i} delay={Math.min(i * 0.02, 0.2)}>
+              <Card>
+                <div className="flex items-baseline justify-between gap-3 mb-1.5">
+                  <h3 className="text-bone text-sm font-medium">{s.title}</h3>
+                  <span className="flex items-center gap-2 shrink-0">
+                    {src?.session === 2 && <Tag tone="amber">S2</Tag>}
+                    <span className="font-mono text-[11px] text-dim">{s.source_clip}</span>
+                  </span>
+                </div>
+                <p className="font-chalk text-lg text-amber/90 leading-snug">&ldquo;{s.hook}&rdquo;</p>
+              </Card>
+            </Fade>
+          )
+        })}
       </div>
 
       <h2 className="font-display text-2xl text-bone mb-2">Pillar videos</h2>
@@ -115,7 +143,10 @@ export default function Clips() {
             <Card className="border-amber-soft/30">
               <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
                 <h3 className="font-display text-xl text-amber">{p.title}</h3>
-                <Tag tone="amber">{p.runtime_estimate}</Tag>
+                <span className="flex items-center gap-2">
+                  {p.session === 2 && <Tag tone="bone">S2</Tag>}
+                  <Tag tone="amber">{p.runtime_estimate}</Tag>
+                </span>
               </div>
               <p className="text-faded text-[13px] leading-relaxed mb-3">{p.premise}</p>
               {p.thumbnail_concept && (
