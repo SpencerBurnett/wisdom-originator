@@ -4465,14 +4465,17 @@ export const calendar: CalendarPlan = {
         "Short: C12 'Create Your Own Container (The AI Gap)'",
         "Short: C48 'Cool-Ass Monkeys Doing Alien Shit' (levity beat, sub-cut 04:45:57-04:47:05)",
         "Short: Demo Day cutdown — one skyscraper in 60 seconds",
-        "Sticky Note Sessions ep4: C40 'Eat Monsters Quickly, Taste Angels Slowly'"
+        "Sticky Note Sessions ep4: C40 'Eat Monsters Quickly, Taste Angels Slowly'",
+        "S2 ANNOUNCEMENT: C114 'Prayer Is Prompting God' ships untrimmed (53s) — the Session 2 drop opens here",
+        "S2 short: C81 'Meow Meow Earned It' — the cat cold-open cuts for IG same week"
       ],
       "linkedin": [
         "Demo Day recap with hard metrics — the sales page Chris pinned at 01:26:43, delivered",
         "Client receipts post: 'How can I pay you MORE money?' — the Sunday thank-you notes (01:12:53)",
         "Empathy post: 'You guys need a fucking hug' — the acceleration-disorientation piece for overwhelmed normies",
         "Poll/question post: 'What in your business do you rent that you should own?' (comment-engine for the Ownership Audit)",
-        "July recap: launch month numbers, next month tease"
+        "July recap: launch month numbers, next month tease",
+        "S2 debut post: 'There is one frame where the work is actually done' — the completion-frame story (S2 ready-post bank)"
       ],
       "vlog": [
         "'Demo Day' BTS — first new-shoot vlog; the campaign meets the products"
@@ -4480,7 +4483,8 @@ export const calendar: CalendarPlan = {
       "milestones": [
         "NEW SHOOT #1 (Jul 27-28): Demo Day — finished-software walkthroughs, launch-week talking heads",
         "July funnel review with James + Josh; 30-day metrics baseline set",
-        "August authority-month campaign brief handed to James"
+        "August authority-month campaign brief handed to James",
+        "Chris photographs the S2 question-card deck overhead — The Cards series cover-frame library"
       ]
     },
     {
@@ -4492,14 +4496,16 @@ export const calendar: CalendarPlan = {
         "Short: C08 '188 Months: The Bullet I Dodged' (story only)",
         "Short: C34 'Carolina Put 12 Years of My Work in a Blender' (vulnerability beat, never a shock clip)",
         "Short: C35 'You Can Only Burn Your Name Once — The D-List Dating Coach Story'",
-        "Sticky Note Sessions ep5: C43 'Nobody Wants Happiness. You Want the Story.'"
+        "Sticky Note Sessions ep5: C43 'Nobody Wants Happiness. You Want the Story.'",
+        "The Cards (S2 series) pilot: 'The Seafood Rule — Choosing vs. Allowing' (C100)"
       ],
       "linkedin": [
         "Vulnerability-lane long post: 'The meanest thing anyone ever did to me' — the destroyed notes, and why every client build is backed up, decentralized, client-owned (the wound as the warranty)",
         "Story post: 'The man who stole my life savings got 188 months. Here's what I got.'",
         "Quote card: C03 patience rant pull — 'monster LeBron' and the rim",
         "'Do You Own It?' segment #2",
-        "Engagement post: 'Is this happening again, or is this a beautiful closing of the loop?' (00:37:26)"
+        "Engagement post: 'Is this happening again, or is this a beautiful closing of the loop?' (00:37:26)",
+        "S2 operator post: 'Your company scales on one screen per person' — execution-is-90% (ready-post bank)"
       ],
       "vlog": [
         "'Late-Night Confessions' ep1 — hour-4+ unguarded material cut against composed hour-1 Spencer (01:59:19 energy)"
@@ -4525,7 +4531,8 @@ export const calendar: CalendarPlan = {
         "Case study asset: 'The 30-Day Plumbing Company Rebuild' — ServiceTitan replaced, $30-40K/month saved, 01:12:53 audio embedded",
         "'Do You Own It?' segment #3",
         "Kill List follow-up: reader results from the lead magnet",
-        "PR announce: 'The founder who uploaded his consciousness into an AI named Gary — and Gary is writing his memoir' (podcast pitch made public)"
+        "PR announce: 'The founder who uploaded his consciousness into an AI named Gary — and Gary is writing his memoir' (podcast pitch made public)",
+        "S2 résumé post: 'Every founder says the same six words: I wish there were a million me's' (C109, two-dozen-companies receipts)"
       ],
       "vlog": [
         "'The Night My Cameraman Became My Coach' — Chris hired for $1,000, dosed to listen, running subconscious-mapping on Spencer by hour four (Arc 3 teaser)"
@@ -4545,7 +4552,9 @@ export const calendar: CalendarPlan = {
         "Short: C45 'Only Truth Required' (note held to lens as the thumbnail)",
         "Short: voids-caught-live compilation — Spencer correcting his own language mid-sentence ('unlimited capacity — that's a void')",
         "Short: C47 'The Faster I Go, the More Gentle I Am' (sandpaper teaching)",
-        "Sticky Note Sessions ep7: C46 'Measure Your Wealth by How Many Wires You Send'"
+        "Sticky Note Sessions ep7: C46 'Measure Your Wealth by How Many Wires You Send'",
+        "SECOND LONG-FORM (S2): 'Reality vs. Truth — The Precise Language Masterclass' (C89+C90+C100→C114) — the Genie Protocol's theological half, published the same week by design; REAL ≠ TRUE carousel ships alongside",
+        "S2 short: 'The 11pm Text' — the reality-vs-truth parable cut (C89)"
       ],
       "linkedin": [
         "'Your AI isn't dumb. It's a mirror.' — vague people get vague AI; closes into the precise-language offer",
@@ -4572,14 +4581,16 @@ export const calendar: CalendarPlan = {
         "Short: C21 'The Integrity Knowledge Bomb' standalone",
         "Short: the soda-can rule — micro-commitments as the gym for macro-confidence",
         "Short: 'The Notebook' (Shoot #2) — 20-year-old notebook, stop-motion page-turns, thumbnail-expands-into-video on its cover",
-        "Sticky Note Sessions ep8: C41 'No One Gives a Fuck. Do Your Duty.'"
+        "Sticky Note Sessions ep8: C41 'No One Gives a Fuck. Do Your Duty.'",
+        "The Cards ep2 (S2): 'Integrity + Fascination — The Whole Filter' (C97, chained to C22's chair teaching)"
       ],
       "linkedin": [
         "Carousel: 'Integrity is the primary KPI of being a human' — the definition, the chair, the relationship, the business; closer: 'better strategy or different network'",
         "Micro-post: the soda-can rule — 'No one dies if you don't. That's exactly why you do.'",
-        "Community launch: revive the '100 Day Monster Challenge' — 'Who's there to see if you cheated? No one. That's the point.'",
+        "Community launch: revive the '100 Day Monster Challenge' — 'Who's there to see if you cheated? No one. That's the point.' (S2 callback ready: C121's 'the only person it matters to is me')",
         "Quote post: 'You master this, you master the universe.' (05:41:29)",
-        "August recap: pipeline stats + authority-month receipts"
+        "August recap: pipeline stats + authority-month receipts",
+        "S2 operator post: 'Achievement is checking the box. Success is the metric.' — integrity-week fit (ready-post bank)"
       ],
       "vlog": [
         "'The Notebook' — the sole-survivor retrieval story from Shoot #2; what the blender didn't get"
@@ -4606,7 +4617,8 @@ export const calendar: CalendarPlan = {
         "Founder-resilience post: 'There was no Xanax in the house. That was the point.' (C49)",
         "Carousel: '5 signs you're downloading more than you can consume' — greed/dark wizardry, blue days, no compression",
         "'Do You Own It?' segment #5",
-        "Quote card: 'If it's recorded, it becomes real' — output as regulation"
+        "Quote card: 'If it's recorded, it becomes real' — output as regulation",
+        "S2 client-philosophy post: 'His client paid $20,000 for two days and walked away with a Google Doc. He was ecstatic.' (heart-happy barometer)"
       ],
       "vlog": [
         "'Public Therapy Session' ep1 — the intensity-meter HUD (1-10 gauge) debuts, calibrated from the 01:54:18 live self-rating ('six and a half right now; eight to ten for days')"
@@ -4626,7 +4638,8 @@ export const calendar: CalendarPlan = {
         "Short: C23 'Brake Is the New Gas' flagship stop-motion version — downhill-luge explainer animation",
         "Short: C18 'Containment: The Theme of the Next Epoch' (Kai's words, 01:22:29)",
         "Short: 'Restraint Is the New Attainment' (05:10:22) typography card",
-        "Sticky Note Sessions ep10: the 'nibbles and sips, no chugging' note (05:59:14, salt-on-fingertips demo)"
+        "Sticky Note Sessions ep10: the 'nibbles and sips, no chugging' note (05:59:14, salt-on-fingertips demo)",
+        "S2 short: 'Know Your Role. Process Later.' (C115) — the duty doctrine, containment-week fit"
       ],
       "linkedin": [
         "Compression post: 'Colonel Sanders franchised in his 60s — the longer it's held back, the bigger the launch' (retro-frames the July skyscraper launch as proof)",
@@ -4653,7 +4666,8 @@ export const calendar: CalendarPlan = {
         "Short: 'I lost 24 pounds in 32 days without trying' — body-reset hook, fever-reframe payload, raised wine glass thumbnail",
         "Short: C32 'My Fevers Synced With My Mom's Chemo'",
         "Short: 'Cold Plunge Is My PTSD' — engineered comment-bait for the biohacker audience (C72 hook)",
-        "Sticky Note Sessions ep11: 'Twenty Years in China' — the Chicago hot-dog being-seen analogy (01:35:16) with stop-motion layer"
+        "Sticky Note Sessions ep11: 'Twenty Years in China' — the Chicago hot-dog being-seen analogy (01:35:16) with stop-motion layer",
+        "The Cards ep3 (S2): 'The 1% Mirror' (C102) — the two-beat cut"
       ],
       "linkedin": [
         "Two-parter pt 2: 'The art of receiving — 1+1=11' (paired with Week 7's wires-sent post)",
@@ -4679,7 +4693,8 @@ export const calendar: CalendarPlan = {
         "Short: C14 'The Desert Test' standalone (04:22:11) — hand-drawn cube/ladder/flowers/horse build up over his face (Shoot #3 assets)",
         "Short: 'The Cameraman Strikes Back' — Chris makes Spencer put in headphones (05:31:37)",
         "Short: C29 'Gasoline vs. Jet Fuel — One Good Woman' (full clip, no edit needed)",
-        "Sticky Note Sessions ep12: C37 'Her Treatment of Me Has No Bearing on My Self-Respect'"
+        "Sticky Note Sessions ep12: C37 'Her Treatment of Me Has No Bearing on My Self-Respect'",
+        "Mini long-form (S2): 'The God Tape' — the cat → the Creator, prayer-is-prompting as the finale; the contemplative cut for the two-hander week"
       ],
       "linkedin": [
         "Text post: 'My cameraman asked me one question at hour four and I couldn't answer for five seconds' (04:19:54)",
@@ -4716,12 +4731,14 @@ export const calendar: CalendarPlan = {
         "Q4 pipeline post: open build slots for the machine-that-builds-machines (Josh's push begins)"
       ],
       "vlog": [
-        "'The Love Story' EP4: The Horse — desert-test payoff ('right next to me,' 04:25:41) + the final note taped to his computer (05:58:16)"
+        "'The Love Story' EP4: The Horse — desert-test payoff ('right next to me,' 04:25:41) + the final note taped to his computer (05:58:16)",
+        "'The Tape' S2 · Ep 1: 'The Cat Understands' — Season 2 opens the week Season 1 closes; Meow Meow's on-camera debut"
       ],
       "milestones": [
         "Prophecy disclaimer enshrined as a standing editorial rule (every prophecy clip, every platform)",
         "Q4 offer push planned with Josh — harvest month sales motion live",
-        "Love Story series completes; Relationship Alchemist strand continues standalone"
+        "Love Story series completes; Relationship Alchemist strand continues standalone",
+        "S2 CLEARANCE DECISION: 'Job Finished.' — Spencer's sign-off gates the Week 14 vlog slot; no edit time past selects until it clears"
       ]
     },
     {
@@ -4733,7 +4750,8 @@ export const calendar: CalendarPlan = {
         "Short: C30 'The Celibacy Superpower — No Drug Comes Close'",
         "Short: C42 'Never Be a Bitch (Duty Defined)'",
         "Short: C39 'The Last First Page'",
-        "Sticky Note Sessions ep14: C38 'Zero Charge (I Never Trash My Exes)'"
+        "Sticky Note Sessions ep14: C38 'Zero Charge (I Never Trash My Exes)'",
+        "Long-form PILLAR (S2): 'The Heart Chapter — Love, Conditions, and the Person Who Fits' (22-28 min) — the backlog-thin week refilled exactly as the ledger promised; men's-lane peak pairing with The Builder's Battery"
       ],
       "linkedin": [
         "Lead magnet: 'The Frames' — field guide to the deployable modes (Provider, King, Pit Bull, Conductor, Tyrant-on-purpose)",
@@ -4743,10 +4761,11 @@ export const calendar: CalendarPlan = {
         "Q4 case-study post: first harvest-month client win from Josh's pipeline"
       ],
       "vlog": [
-        "'Steak & Content' — the running-gag BTS reel: fridge runs, shampoo explosion (03:44:27), pace checks, 'hour 5 hydration check' (04:59:51)"
+        "'Steak & Content' — the running-gag BTS reel: fridge runs, shampoo explosion (03:44:27), pace checks, 'hour 5 hydration check' (04:59:51)",
+        "'The Tape' S2 · Ep 2: 'Job Finished.' — publishes ONLY if the Week 13 clearance gate opened; otherwise the doctrine-only Heart Chapter pillar carries the week"
       ],
       "milestones": [
-        "BACKLOG THIN FLAG: prime 6-hour clips ~85% consumed; Sticky Note Sessions has ~12 unread notes left — Vol. 2 recording required to sustain daily series past Nov 1",
+        "BACKLOG THIN FLAG resolved by S2: prime 6-hour clips ~85% consumed, but the July session's 46 clips carry the daily series — Vol. 2 recording still locked for next week to stay one shoot ahead",
         "NEW SHOOT #4 pre-production: Sticky Note Deck Vol. 2 session + Six Hours documentary pickup list",
         "Book waitlist page briefed"
       ]
@@ -4760,7 +4779,8 @@ export const calendar: CalendarPlan = {
         "Short: 'Five Days Before Something Bad Happens' (00:25:32)",
         "Short: '48 Hours of Tools Failed' — why he hired a camera instead (C31, 03:26:00)",
         "Short: 'It's So Good It's Too Much' (C50)",
-        "Sticky Note Sessions ep15: 'Complete. Not Tired.' (06:03:15) — the soul-on-fire proof"
+        "Sticky Note Sessions ep15: 'Complete. Not Tired.' (06:03:15) — the soul-on-fire proof",
+        "Second long-form (S2): 'The Founder's Oracle — Execution, Completion, and True Scalability' (C84-C87+C109+C116, chains to C26/C59) — the Q4 sales motion's authority anchor, timed to Josh's pipeline push"
       ],
       "linkedin": [
         "Post: 'I hired a camera on my worst week' — the pressure-release valve as a leadership tool (C31)",
@@ -4786,7 +4806,8 @@ export const calendar: CalendarPlan = {
         "Short: C33 'The Book: Forrest Gump Meets Tucker Max'",
         "Short: Wisdom Originator vs Gollum two-panel reveal (03:36:56 / 03:38:11) — Bestower vs Hoarder",
         "Short: 'Whose Line Is It Anyway' blind-draw oracle moment (04:42:53)",
-        "Sticky Note Sessions ep16: the final two battered notes — 'the two reminders I never travel without' (05:58:16)"
+        "Sticky Note Sessions ep16: the final two battered notes — 'the two reminders I never travel without' (05:58:16)",
+        "S2 paired drop: 'What Did Your Mother Teach You?' + 'Dad's Horn Lesson' (C124) — the question ships with its answer; YouTube/vlog only per the on-tape flag"
       ],
       "linkedin": [
         "Book serialization BEGINS: one sticky note = one text-post parable + IG image of the handwritten note (weekly through launch)",

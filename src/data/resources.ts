@@ -41,6 +41,7 @@ export const sectionLabels: Record<string, string> = {
   email: 'Email Spine',
   workflow: 'Edit Workflow',
   calendar: '4-Month Plan',
+  orders: 'Work Orders',
   resources: 'Resource Library',
 }
 
@@ -175,6 +176,17 @@ export const resources: Resource[] = [
     provenance: 'Mined from the 6h06m master transcript by the 22-agent workflow (2026-07-05); Session 2 merge added 2026-07-22.',
     size: '~5,000 lines · 360+ KB',
     feeds: ['overview', 'clips', 'quotes', 'themes', 'arcs', 'physical', 'ideas', 'youtube', 'linkedin', 'vlog', 'workflow', 'calendar'],
+  },
+  {
+    id: 'data-workorders',
+    name: 'workOrders.ts',
+    path: 'src/data/workOrders.ts',
+    kind: 'data',
+    group: 'Data Files',
+    what: 'The Work Orders board — every actionable item the Session 2 integration generated, one owner per order, each with a due window and its moment of completion named in advance. Includes the machine\'s own completed orders as the shipped-work ledger.',
+    provenance: 'Authored alongside the Session 2 merge, 2026-07-22.',
+    size: '19 orders · 3 shipped',
+    feeds: ['orders'],
   },
   {
     id: 'data-session2',
@@ -398,6 +410,11 @@ export const resources: Resource[] = [
   {
     id: 'sec-calendar', name: '4-Month Plan', path: 'src/sections/Calendar.tsx', kind: 'section', group: 'Site Sections',
     section: 'calendar', what: 'The month themes, weekly focus, content ledger and monthly KPIs.', builtFrom: ['data-content', 'data-supplement', 'data-calls'],
+  },
+  {
+    id: 'sec-orders', name: 'Work Orders', path: 'src/sections/WorkOrders.tsx', kind: 'section', group: 'Site Sections',
+    what: 'The one screen: every open work order with its owner, due window, and completion frame — plus the machine\'s shipped orders. The execution layer the mined supply drains through.',
+    section: 'orders', builtFrom: ['data-workorders'],
   },
   {
     id: 'sec-resources', name: 'Resource Library', path: 'src/sections/ResourceLibrary.tsx', kind: 'section', group: 'Site Sections',

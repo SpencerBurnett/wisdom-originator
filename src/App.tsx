@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import {
   Clapperboard, Quote as QuoteIcon, Layers, GitBranch, Camera, Youtube,
-  Linkedin, BookOpen, Wrench, CalendarDays, Sparkles, Lightbulb, Mail, Images, PhoneCall, DoorOpen, Wand2, Route, Library,
+  Linkedin, BookOpen, Wrench, CalendarDays, Sparkles, Lightbulb, Mail, Images, PhoneCall, DoorOpen, Wand2, Route, Library, ClipboardList,
 } from 'lucide-react'
 import { NavContext } from './nav'
 import BrandStrategy from './sections/BrandStrategy'
@@ -22,6 +22,7 @@ import VlogPlan from './sections/VlogPlan'
 import EditWorkflow from './sections/EditWorkflow'
 import Calendar from './sections/Calendar'
 import IdeaBank from './sections/IdeaBank'
+import WorkOrders from './sections/WorkOrders'
 import ResourceLibrary from './sections/ResourceLibrary'
 
 const sections = [
@@ -43,6 +44,7 @@ const sections = [
   { id: 'email', label: 'Email Spine', icon: Mail, el: <EmailPlan /> },
   { id: 'workflow', label: 'Edit Workflow', icon: Wrench, el: <EditWorkflow /> },
   { id: 'calendar', label: '4-Month Plan', icon: CalendarDays, el: <Calendar /> },
+  { id: 'orders', label: 'Work Orders', icon: ClipboardList, el: <WorkOrders /> },
   { id: 'resources', label: 'Resource Library', icon: Library, el: <ResourceLibrary /> },
 ]
 

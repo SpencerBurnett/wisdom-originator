@@ -136,7 +136,7 @@ export const frames: Frame[] = [
     name: 'The Host',
     character: 'Pee-wee’s Playhouse — "sincere and authentic, but weird"',
     essence: '"I want it to be like a Pee-wee’s Playhouse kind of vibe... you’re in my cave, like you’re in my mind." The lair itself is this character’s body — the conscious creation lair, paradise where you can be seen or hide.',
-    lane: 'Set tours, behind-the-scenes, the fixed-rig standardized shots, Meow Meow cameos, the water wall when it arrives.',
+    lane: 'Set tours, behind-the-scenes, the fixed-rig standardized shots, Meow Meow cameos (delivered: S2 C81, the cat-door doctrine opens Session 2), the water wall when it arrives.',
     cue: 'The loft: gold lace, plants, screens, red light. "All I need is to control being hit by light."',
   },
   {

@@ -115,6 +115,10 @@ export const thumbnailChain = {
     'The Greatest Love Story Ever Told → freezes on the 2029 split-road card',
     '2029: The Split → freezes on the behind-the-scenes hair-check frame',
     'Six Hours: The Making of the Wisdom Originator → freezes on the MIRACLE TOUR card (loop closes; season two opens on it)',
+    '— Session 2 extension (the chain crosses masters for the first time) —',
+    'Reality vs. Truth — The Precise Language Masterclass → freezes on the ONE SCREEN card (the Founder\'s Oracle thumbnail)',
+    "The Founder's Oracle → freezes on S1's One-Shot Prompt note (C26) — the first cross-session link, proving the two masters cut as one filmstrip",
+    'The Heart Chapter → freezes on the crayon-heart arms-crossed card (t09292) → which is also The Tape S2 finale\'s cover — the heart chapter hands off to the vlog',
   ],
 }
 

@@ -55,7 +55,7 @@ const steps = [
   },
   {
     title: 'Walk every experience — money in the bank, proven',
-    body: 'Before go-live, every customer path gets driven end-to-end like a real customer: call to booked job, estimate to approval, invoice to payment cleared. Every path terminates in money in the bank or it does not ship.',
+    body: 'Before go-live, every customer path gets driven end-to-end like a real customer: call to booked job, estimate to approval, invoice to payment cleared. Every path terminates in money in the bank or it does not ship. That is the moment of completion, defined in advance: not "launched" — the frame where the money hits your account.',
   },
   {
     title: 'The Loop — your team’s complaints become the roadmap',
@@ -214,6 +214,31 @@ export default function Doorway() {
 
       <Quote>I build you a fighter jet — and you can fly it yourself.</Quote>
 
+      {/* TRUE SCALABILITY (Session 2) */}
+      <h2 className="font-display text-3xl text-bone mb-5">What owning it buys you: true scalability</h2>
+      <div className="space-y-4 text-faded text-[15px] leading-relaxed max-w-3xl mb-6">
+        <p>
+          A scaled company is merely <span className="text-bone">the expression of the founder&rsquo;s intent
+          through other people</span> — humans and machines acting on the owner&rsquo;s behalf to deliver the
+          thing. Every founder I&rsquo;ve scaled says the same six words at some point: <em className="text-bone not-italic">I
+          just wish there were a million me&rsquo;s.</em> That is the actual product here: your genius —
+          how estimates really get priced, which customers really matter, what done really means — extracted
+          into software that acts like you when you&rsquo;re not in the room.
+        </p>
+        <p>
+          And because you own it, it moves when you move. New offer, new team, a full 90-degree pivot — the
+          software responds to you instead of a vendor&rsquo;s roadmap. About two dozen companies scaled this
+          way — six figures to seven, seven to eight — and the method is the same every time: the ideal
+          customer journey, from seeing the ad to the finished job, becomes the spine of every workflow, and
+          the machine fills in the exceptions.
+        </p>
+      </div>
+
+      <Quote attribution="on who the build is really for — Session 2">
+        I don&rsquo;t build oracles for companies. I build them for founders — that&rsquo;s whose dreams
+        you&rsquo;re making come true.
+      </Quote>
+
       {/* PROCESS */}
       <h2 className="font-display text-3xl text-bone mb-6">How it works</h2>
       <div className="space-y-5 mb-12">
@@ -352,6 +377,7 @@ export default function Doorway() {
             'Verify the 41-days / 16-apps / 150K-lines tally before public use',
             'Wire the two CTAs: booking link (Josh’s pipeline) + Ownership Audit lead-magnet page',
             'Confirm the from-$60K price floor and monthly capacity number before launch',
+            'Cut the C109 "true scalability" run (S2 01:36:55) as the page\'s hero video once the video block ships',
           ].map((x, i) => (
             <li key={i} className="text-dim text-[12px] leading-relaxed flex gap-2">
               <span className="shrink-0">☐</span>{x}
